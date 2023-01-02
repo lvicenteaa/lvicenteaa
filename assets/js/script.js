@@ -328,7 +328,7 @@ proyectos.addEventListener("click", () => {
   main.innerHTML = `
   <section>
     <div class="row">
-      <div class="card" style="width: 18rem;">
+      <div class="card col-sm-6">
         <div class="card-body">
           <h5 class="card-title">Libro Campo</h5>
           <h6 class="card-subtitle mb-2 text-muted">JAVA - POSTGRESQL</h6>
@@ -337,7 +337,7 @@ proyectos.addEventListener("click", () => {
           <a href="#" class="card-link">Another link</a>
         </div>
       </div>
-      <div class="card" style="width: 18rem;">
+      <div class="card col-sm-6">
         <div class="card-body">
           <h5 class="card-title">Movilidad</h5>
           <h6 class="card-subtitle mb-2 text-muted">PHP - MYSQL</h6>
@@ -350,3 +350,28 @@ proyectos.addEventListener("click", () => {
   </section>
   `;
 });
+
+document.body.onload = function(){
+  const main = document.getElementById("main");
+  main.innerHTML = `
+  <section class="container">
+    <h1>LUIS VICENTE ALBARRACIN</h1>
+    <article>
+      <p>
+        Soy Estudiante del programa de
+        <span> <a href="https://ingsistemas.cloud.ufps.edu.co/"> Ingeniería de Sistemas </a></span> de la
+        <span> <a href="https://ww2.ufps.edu.co/">Universidad Francisco de Paula Santander (UFPS)</a> </span>. En el
+        año 2021 participe en <span> <a href="https://www.misiontic2022.gov.co/portal/">Misión TIC</a></span> en la
+        <span> <a href="https://unab.edu.co/">Universidad Autónoma de Bucaramanga</a></span>, formandome como
+        desarrollador en aplicaciones web. Tambien soy miembro del
+        <span> <a href="http://siaweb.ufps.edu.co/index.php">Semillero de Investigación Siaweb de la UFPS</a></span>.
+      </p>
+      <p>
+        Me dedico principalmente a desarrollar el Backend de las
+        aplicaciones web utilizando tecnologías como Java, con el framework
+        Spring, Postgresql o MySQL como base de datos.
+      </p>
+    </article>
+  </section>
+  `;
+}
