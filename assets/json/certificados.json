@@ -1,0 +1,142 @@
+[
+    {
+        "nombre": "Habilidades en programación con énfasis en aplicaciones web",
+        "fecha": "",
+        "empresa": "Ministerio de Tecnologías de la Información y las Comunicaciones y la Universidad Autónoma de Bucaramanga, UNAB",
+        "link": "",
+        "imagen": "assets/certificados/misiontic/habilidades-web.jpg"
+    },
+    {
+        "nombre": "Técnico laboral en habilidades en programación con énfasis en aplicaciones web",
+        "fecha": "",
+        "empresa": "Ministerio de Tecnologías de la Información y las Comunicaciones y la Universidad Autónoma de Bucaramanga, UNAB",
+        "link": "",
+        "imagen": "assets/certificados/misiontic/tecnico-laboral.jpg"
+    },
+    {
+        "nombre": "Desarrollo de aplicaciones Web",
+        "fecha": "",
+        "empresa": "Ministerio de Tecnologías de la Información y las Comunicaciones y la Universidad Autónoma de Bucaramanga, UNAB",
+        "link": "",
+        "imagen": "assets/certificados/misiontic/ciclo4.jpg"
+    },
+    {
+        "nombre": "Ingeniería de Software",
+        "fecha": "",
+        "empresa": "Platzi",
+        "link": "",
+        "imagen": "assets/certificados/platzi/ingenieria-software.jpg"
+    },
+    {
+        "nombre": "Git y Github",
+        "fecha": "",
+        "empresa": "Platzi",
+        "link": "",
+        "imagen": "assets/certificados/platzi/git-github.jpg"
+    },
+    {
+        "nombre": "Java",
+        "fecha": "",
+        "empresa": "Sololearn",
+        "link": "",
+        "imagen": "assets/certificados/sololearn/java.png"
+    },
+    {
+        "nombre": "SQL",
+        "fecha": "",
+        "empresa": "Sololearn",
+        "link": "",
+        "imagen": "assets/certificados/sololearn/sql.png"
+    },
+    {
+        "nombre": "HTML",
+        "fecha": "",
+        "empresa": "Sololearn",
+        "link": "",
+        "imagen": "assets/certificados/sololearn/html.jpg"
+    },
+    {
+        "nombre": "Javascript",
+        "fecha": "",
+        "empresa": "Sololearn",
+        "link": "",
+        "imagen": "assets/certificados/sololearn/javascript.png"
+    },
+    {
+        "nombre": "Python",
+        "fecha": "",
+        "empresa": "Sololearn",
+        "link": "",
+        "imagen": "assets/certificados/sololearn/python.png"
+    },
+    {
+        "nombre": "PHP",
+        "fecha": "",
+        "empresa": "Sololearn",
+        "link": "",
+        "imagen": "assets/certificados/sololearn/php.png"
+    },
+    {
+        "nombre": "Acta de grado de bachillerato",
+        "fecha": "",
+        "empresa": "Institución Educativa Colegio Municipal Aeropuerto",
+        "link": "",
+        "imagen": "assets/certificados/bachillerato/actagrado.jpg"
+    },
+    {
+        "nombre": "Diplima Bachillerato",
+        "fecha": "",
+        "empresa": "Institución Educativa Colegio Municipal Aeropuerto",
+        "link": "",
+        "imagen": "assets/certificados/bachillerato/diploma.jpg"
+    },
+    {
+        "nombre": "Fundamentos de programación",
+        "fecha": "28-12-2021",
+        "empresa": "Ministerio de Tecnologías de la Información y las Comunicaciones y la Universidad Autónoma de Bucaramanga, UNAB",
+        "link": "",
+        "imagen": "assets/certificados/misiontic/ciclo1.jpg"
+    },
+    {
+        "nombre": "Programación básica",
+        "fecha": "",
+        "empresa": "Ministerio de Tecnologías de la Información y las Comunicaciones y la Universidad Autónoma de Bucaramanga, UNAB",
+        "link": "",
+        "imagen": "assets/certificados/misiontic/ciclo2.jpg"
+    },
+    {
+        "nombre": "Desarrollo de Software",
+        "fecha": "",
+        "empresa": "Ministerio de Tecnologías de la Información y las Comunicaciones y la Universidad Autónoma de Bucaramanga, UNAB",
+        "link": "",
+        "imagen": "assets/certificados/misiontic/ciclo3.jpg"
+    },
+    {
+        "nombre": "Bases de datos generalidades y sistemas de gestión",
+        "fecha": "",
+        "empresa": "El Servicio Nacional de Aprendizaje SENA",
+        "link": "",
+        "imagen": "assets/certificados/sena/base-datos.jpg"
+    },
+    {
+        "nombre": "Aplicación de la calidad del software en el proceso de desarrollo",
+        "fecha": "",
+        "empresa": "El Servicio Nacional de Aprendizaje SENA",
+        "link": "",
+        "imagen": "assets/certificados/sena/calidad-software.jpg"
+    },
+    {
+        "nombre": "Desarrollo de habilidades digitales para la gestión de la información",
+        "fecha": "",
+        "empresa": "El Servicio Nacional de Aprendizaje SENA",
+        "link": "",
+        "imagen": "assets/certificados/sena/habilidades-digitales.jpg"
+    },
+    {
+        "nombre": "Procesos de soporte técnico para el mantenimiento de equipos de computo",
+        "fecha": "",
+        "empresa": "El Servicio Nacional de Aprendizaje SENA",
+        "link": "",
+        "imagen": "assets/certificados/sena/soporte.jpg"
+    }
+]
