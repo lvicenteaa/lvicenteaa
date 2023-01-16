@@ -56,32 +56,33 @@ about_me.addEventListener("click", () => {
   `;
 });
 
-proyectos.addEventListener("click", () => {
-  const main = document.getElementById("main");
-  main.innerHTML = `
-  <section>
-    <div class="row">
+function add_proyectos(data){
+  const proyectos_html = document.getElementById("main");
+  proyectos_html.innerHTML = "";
+
+  for (let i = 0; i < data.length; i++) {
+    proyectos_html.innerHTML += `
       <div class="card col-sm-6">
+        <img class="card-img-top" src="${data[i].imagen}" alt="${data[i].imagen}">
         <div class="card-body">
-          <h5 class="card-title">Libro Campo</h5>
-          <h6 class="card-subtitle mb-2 text-muted">JAVA - POSTGRESQL</h6>
-          <p class="card-text">Aplicación para gestionar los cultivos de palma de fincas.</p>
-          <a href="#" class="card-link">Card link</a>
-          <a href="#" class="card-link">Another link</a>
+          <h5 class="card-title">${data[i].nombre}</h5>
+          <p class="card-text">${data[i].descripcion} <span class="text-muted">${data[i].tecnologias}</span></p>
+          <a href="${data[i].link}" class="Ver"></a>
         </div>
       </div>
-      <div class="card col-sm-6">
-        <div class="card-body">
-          <h5 class="card-title">Movilidad</h5>
-          <h6 class="card-subtitle mb-2 text-muted">PHP - MYSQL</h6>
-          <p class="card-text">Aplicación para registrar las salidas y entradas por Movilidad de Docentes y Estudiantes de Ingeniería de Sistemas de la UFPS.</p>
-          <a href="#" class="card-link">Card link</a>
-          <a href="#" class="card-link">Another link</a>
-        </div>
-      </div>
-    </div>
-  </section>
   `;
+  }
+
+}
+
+proyectos.addEventListener("click", () => {
+  const requestURL = 'assets/json/proyectos.json';
+  fetch(requestURL)
+    .then((response) => response.json())
+    .then((data) => {
+      add_proyectos(data);
+    })
+    .catch((err) => console.log('err'))
 });
 
 document.body.onload = function(){

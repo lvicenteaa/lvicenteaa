@@ -1,0 +1,16 @@
+[
+    {
+        "nombre": "Juego Simon Dice",
+        "descripcion": "Juego desarrollado en un curso de platzi",
+        "tecnologias": "HTML, CSS, JS",
+        "imagen": "assets/proyectos/simon-dice.png",
+        "link": "https://lvicenteaa.github.io/juegoSimonDice/"
+    },
+    {
+        "nombre": "Periodico 6B",
+        "descripcion": "Ejemplo de página web para periodico escolar",
+        "tecnologias": "HTML, CSS, JS Y BOOTSTRAP",
+        "imagen": "assets/proyectos/periodico-6b.png",
+        "link": "https://lvicenteaa.github.io/ExamenWeb2001/"
+    }
+]
