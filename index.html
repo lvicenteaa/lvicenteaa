@@ -21,7 +21,7 @@
   <body>
     <header>
       <nav class="navbar navbar-expand-lg bg-light">
-        <div class="container-fluid">
+        <div class="container">
           <a class="navbar-brand" href="/">Luis Vicente Albarracin</a>
           <button
             class="navbar-toggler"
@@ -34,7 +34,7 @@
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse me-auto" id="navbarNavAltMarkup">
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
               <a
                 class="nav-link active"
@@ -43,8 +43,8 @@
                 href="/"
                 >Inicio</a
               >
-              <a class="nav-link" id="proyectos" href="#">Proyectos</a>
-              <a class="nav-link" id="certificados" href="#">Certificados</a>
+              <a class="nav-link" id="proyectos" href="/proyectos.html">Proyectos</a>
+              <a class="nav-link" id="certificados" href="/certificados.html">Certificados</a>
               <a
                 class="nav-link"
                 id="cv"
@@ -59,9 +59,29 @@
       </nav>
     </header>
 
-    <main class="container">
+    <main>
       <div class="container">
-        <div class="row" id="main"></div>
+        <div class="row" id="main">
+          <section class="col-12">
+            <h1>LUIS VICENTE ALBARRACIN</h1>
+            <article>
+              <p>
+                Soy Estudiante del programa de
+                <span> <a href="https://ingsistemas.cloud.ufps.edu.co/"> Ingeniería de Sistemas </a></span> de la
+                <span> <a href="https://ww2.ufps.edu.co/">Universidad Francisco de Paula Santander (UFPS)</a> </span>. En el
+                año 2021 participe en <span> <a href="https://www.misiontic2022.gov.co/portal/">Misión TIC</a></span> en la
+                <span> <a href="https://unab.edu.co/">Universidad Autónoma de Bucaramanga</a></span>, formandome como
+                desarrollador en aplicaciones web. Tambien soy miembro del
+                <span> <a href="http://siaweb.ufps.edu.co/index.php">Semillero de Investigación Siaweb de la UFPS</a></span>.
+              </p>
+              <p>
+                Me dedico principalmente a desarrollar el Backend de las
+                aplicaciones web utilizando tecnologías como Java, con el framework
+                Spring, Postgresql o MySQL como base de datos.
+              </p>
+            </article>
+          </section>
+        </div>
       </div>
     </main>
 
@@ -139,6 +159,5 @@
       crossorigin="anonymous"
     ></script>
 
-    <script src="./assets/js/script.js"></script>
   </body>
 </html>
