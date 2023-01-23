@@ -36,16 +36,16 @@
     },
     {
         "nombre": "Java",
-        "fecha": "",
+        "fecha": "9 Enero 2022",
         "empresa": "Sololearn",
-        "link": "",
+        "link": "https://www.sololearn.com/certificates/CT-EDYGZJA3",
         "imagen": "assets/certificados/sololearn/java.png"
     },
     {
         "nombre": "SQL",
-        "fecha": "",
+        "fecha": "22 Enero 2023",
         "empresa": "Sololearn",
-        "link": "",
+        "link": "https://www.sololearn.com/certificates/CT-3Y8HKXYR",
         "imagen": "assets/certificados/sololearn/sql.png"
     },
     {
@@ -59,14 +59,14 @@
         "nombre": "Javascript",
         "fecha": "",
         "empresa": "Sololearn",
-        "link": "",
+        "link": "https://www.sololearn.com/certificates/CT-NACKZ3C2",
         "imagen": "assets/certificados/sololearn/javascript.png"
     },
     {
         "nombre": "Python",
-        "fecha": "",
+        "fecha": "16 Agosto 2022",
         "empresa": "Sololearn",
-        "link": "",
+        "link": "https://www.sololearn.com/certificates/CT-NACKZ3C2",
         "imagen": "assets/certificados/sololearn/python.png"
     },
     {
@@ -75,20 +75,6 @@
         "empresa": "Sololearn",
         "link": "",
         "imagen": "assets/certificados/sololearn/php.png"
-    },
-    {
-        "nombre": "Acta de grado de bachillerato",
-        "fecha": "",
-        "empresa": "Institución Educativa Colegio Municipal Aeropuerto",
-        "link": "",
-        "imagen": "assets/certificados/bachillerato/actagrado.jpg"
-    },
-    {
-        "nombre": "Diplima Bachillerato",
-        "fecha": "",
-        "empresa": "Institución Educativa Colegio Municipal Aeropuerto",
-        "link": "",
-        "imagen": "assets/certificados/bachillerato/diploma.jpg"
     },
     {
         "nombre": "Fundamentos de programación",
